@@ -9,7 +9,7 @@
 
 ## 👋 About me
 
-- 🇰🇪 Developer based in **Eldoret, Kenya**
+- 📍 Developer based in **Eldoret, Kenya**
 - 🎯 I build practical web apps that solve everyday problems for people in Kenya
 - 🧰 I work across the stack: TypeScript front ends, Postgres databases, payments and AI features
 
@@ -17,7 +17,7 @@
 
 > **Apply smarter. Get seen.** Applyra helps Kenyan university and college students apply for internships, industrial attachments and entry-level jobs without starting from scratch every time.
 
-| | |
+| Feature | What it does |
 | --- | --- |
 | ✍️ **Tailored CVs & cover letters** | Matched to each job advert, written only from the student's real profile — nothing invented |
 | 📱 **M-PESA payments** | Pay in seconds with an STK Push prompt on your phone |

@@ -1,63 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="title desc">
-  <title id="title">Eugine Kimutai</title>
-  <desc id="desc">Developer in Eldoret, Kenya. Building Applyra: tailored CVs and cover letters for Kenyan students.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" role="img" aria-labelledby="title desc">
+  <title id="title">Eugine Kimutai — Full-Stack TypeScript Engineer</title>
+  <desc id="desc">Full-Stack Software Engineer in Eldoret, Kenya specializing in Next.js, TypeScript, Supabase, PostgreSQL, M-PESA Daraja FinTech integrations, and AI applications.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#062b20"/>
-      <stop offset="0.55" stop-color="#0b4a35"/>
-      <stop offset="1" stop-color="#0f7a4f"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041310"/>
+      <stop offset="45%" stop-color="#07261e"/>
+      <stop offset="100%" stop-color="#0b3b2d"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.07"/>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="glassLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2922" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#061712" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.05"/>
     </pattern>
+    <radialGradient id="glow1" cx="85%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="15%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#dots)"/>
-  <circle cx="1080" cy="-30" r="190" fill="#34d399" fill-opacity="0.10"/>
-  <circle cx="1170" cy="330" r="140" fill="#fbbf24" fill-opacity="0.08"/>
+  <!-- Background -->
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#glow1)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#glow2)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#34d399" stroke-opacity="0.22" stroke-width="1.5"/>
 
-  <!-- Text -->
-  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <text x="72" y="118" fill="#a7f3d0" font-size="22" font-weight="600" letter-spacing="3">HELLO, I'M</text>
-    <text x="70" y="182" fill="#ffffff" font-size="64" font-weight="700">Eugine Kimutai</text>
-    <text x="72" y="228" fill="#d1fae5" font-size="26">Developer · Eldoret, Kenya</text>
-    <g transform="translate(72 256)">
-      <rect width="452" height="36" rx="18" fill="#ffffff" fill-opacity="0.12"/>
-      <circle cx="22" cy="18" r="6" fill="#fbbf24"/>
-      <text x="38" y="24.5" fill="#ecfdf5" font-size="17">Now building Applyra — apply smarter, get seen</text>
+  <!-- Left Column: Identity & Positioning -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Status Badge -->
+    <g transform="translate(64, 48)">
+      <rect width="318" height="30" rx="15" fill="#064e3b" fill-opacity="0.75" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="18" cy="15" r="4.5" fill="#34d399"/>
+      <circle cx="18" cy="15" r="8" fill="#34d399" fill-opacity="0.25"/>
+      <text x="34" y="19.5" fill="#a7f3d0" font-size="11.5" font-weight="700" letter-spacing="1.4">ELDORET, KENYA  •  OPEN TO ROLES</text>
+    </g>
+
+    <!-- Name & Headline -->
+    <text x="64" y="142" fill="#ffffff" font-size="56" font-weight="800" letter-spacing="-1">Eugine Kimutai</text>
+    <text x="64" y="182" fill="url(#accentGrad)" font-size="23" font-weight="700">Full-Stack TypeScript Engineer  •  FinTech &amp; Applied AI</text>
+
+    <!-- Bio Description -->
+    <text x="64" y="222" fill="#cbd5e1" font-size="16" font-weight="400">Architecting production web platforms with end-to-end financial integrity,</text>
+    <text x="64" y="246" fill="#cbd5e1" font-size="16" font-weight="400">Safaricom M-PESA Daraja payment flows, and grounded AI workflows.</text>
+
+    <!-- Core Stack Pills -->
+    <g transform="translate(64, 276)" font-size="12.5" font-weight="600" fill="#ecfdf5">
+      <rect x="0" y="0" width="92" height="32" rx="8" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="46" y="20.5" text-anchor="middle">Next.js 15</text>
+
+      <rect x="102" y="0" width="100" height="32" rx="8" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="152" y="20.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="212" y="0" width="136" height="32" rx="8" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="280" y="20.5" text-anchor="middle">Supabase &amp; Prisma</text>
+
+      <rect x="358" y="0" width="118" height="32" rx="8" fill="url(#glass)" stroke="#34d399" stroke-opacity="0.35"/>
+      <text x="417" y="20.5" text-anchor="middle" fill="#6ee7b7">M-PESA Daraja</text>
+
+      <rect x="486" y="0" width="96" height="32" rx="8" fill="url(#glass)" stroke="#fbbf24" stroke-opacity="0.35"/>
+      <text x="534" y="20.5" text-anchor="middle" fill="#fde68a">Claude AI</text>
     </g>
   </g>
 
-  <!-- Illustration: a tailored CV next to a matching letter -->
-  <g transform="translate(760 26)">
-    <g transform="rotate(-6 110 120)">
-      <rect x="0" y="10" width="190" height="236" rx="14" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.25"/>
-      <rect x="22" y="36" width="96" height="12" rx="6" fill="#ffffff" fill-opacity="0.85"/>
-      <rect x="22" y="56" width="132" height="8" rx="4" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="22" y="86" width="60" height="9" rx="4.5" fill="#34d399"/>
-      <rect x="22" y="104" width="146" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="22" y="118" width="126" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="22" y="146" width="60" height="9" rx="4.5" fill="#34d399"/>
-      <rect x="22" y="164" width="146" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="22" y="178" width="110" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="22" y="206" width="146" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- Right Column: Architectural Product Showcase Cards -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" transform="translate(720, 42)">
+    <!-- Back Card: Tradepedia -->
+    <g transform="translate(36, 0)">
+      <rect x="0" y="0" width="384" height="132" rx="14" fill="url(#glassLight)" stroke="#34d399" stroke-opacity="0.32" stroke-width="1.2"/>
+      <rect x="18" y="18" width="8" height="8" rx="4" fill="#34d399"/>
+      <text x="34" y="26" fill="#6ee7b7" font-size="11" font-weight="700" letter-spacing="1.2">FINTECH PLATFORM  •  LIVE</text>
+      <rect x="294" y="13" width="72" height="20" rx="10" fill="#064e3b"/>
+      <text x="330" y="26.5" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="700">M-PESA STK</text>
+
+      <text x="18" y="54" fill="#ffffff" font-size="20" font-weight="700">Tradepedia</text>
+      <text x="18" y="76" fill="#94a3b8" font-size="13">Multi-Asset Forex Platform with Double-Entry</text>
+      <text x="18" y="94" fill="#94a3b8" font-size="13">Immutable Ledger, KYC Verification &amp; RBAC</text>
+
+      <text x="18" y="116" fill="#cbd5e1" font-size="11" font-family="monospace">Next.js 14 • Prisma • PostgreSQL • Vitest</text>
     </g>
-    <g transform="translate(150 40) rotate(5 95 110)">
-      <rect x="0" y="0" width="190" height="226" rx="14" fill="#ffffff" fill-opacity="0.94"/>
-      <rect x="22" y="26" width="70" height="9" rx="4.5" fill="#0f7a4f"/>
-      <rect x="22" y="48" width="104" height="7" rx="3.5" fill="#94a3b8"/>
-      <rect x="22" y="78" width="146" height="7" rx="3.5" fill="#cbd5e1"/>
-      <rect x="22" y="92" width="146" height="7" rx="3.5" fill="#cbd5e1"/>
-      <rect x="22" y="106" width="120" height="7" rx="3.5" fill="#cbd5e1"/>
-      <rect x="22" y="130" width="146" height="7" rx="3.5" fill="#cbd5e1"/>
-      <rect x="22" y="144" width="96" height="7" rx="3.5" fill="#cbd5e1"/>
-      <circle cx="150" cy="190" r="20" fill="#0f7a4f"/>
-      <path d="M140 190 l7 7 l13 -14" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Front Card: Applyra -->
+    <g transform="translate(0, 146)">
+      <rect x="0" y="0" width="420" height="132" rx="14" fill="url(#glassLight)" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.2"/>
+      <rect x="18" y="18" width="8" height="8" rx="4" fill="#fbbf24"/>
+      <text x="34" y="26" fill="#fde68a" font-size="11" font-weight="700" letter-spacing="1.2">AI CAREER ENGINE  •  FLAGSHIP</text>
+      <rect x="316" y="13" width="86" height="20" rx="10" fill="#451a03"/>
+      <text x="359" y="26.5" text-anchor="middle" fill="#fbbf24" font-size="10.5" font-weight="700">CLAUDE + RLS</text>
+
+      <text x="18" y="54" fill="#ffffff" font-size="20" font-weight="700">Applyra</text>
+      <text x="18" y="76" fill="#94a3b8" font-size="13">AI-Tailored CVs &amp; Cover Letters for Kenyan Students</text>
+      <text x="18" y="94" fill="#94a3b8" font-size="13">Zero-hallucination profile grounding + PDF/DOCX export</text>
+
+      <text x="18" y="116" fill="#cbd5e1" font-size="11" font-family="monospace">Next.js 15 • React 19 • Supabase RLS • Daraja</text>
     </g>
   </g>
 </svg>

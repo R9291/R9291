@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" width="100%" height="100%" role="img" aria-labelledby="tradepedia-title">
+  <title id="tradepedia-title">Tradepedia — Multi-Asset Trading Platform &amp; Immutable Ledger</title>
+  <defs>
+    <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#050c16"/>
+    </linearGradient>
+    <linearGradient id="pillBg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="580" height="280" rx="16" fill="url(#cardBg2)"/>
+  <rect x="1" y="1" width="578" height="278" rx="15" fill="none" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Top Header -->
+    <rect x="28" y="24" width="154" height="24" rx="12" fill="#064e3b" stroke="#34d399" stroke-opacity="0.4"/>
+    <circle cx="42" cy="36" r="4" fill="#34d399"/>
+    <text x="54" y="40" fill="#a7f3d0" font-size="10.5" font-weight="700" letter-spacing="1">OPEN SOURCE REPO</text>
+
+    <rect x="442" y="24" width="110" height="24" rx="12" fill="url(#pillBg2)" stroke="#38bdf8" stroke-opacity="0.4"/>
+    <text x="497" y="40" text-anchor="middle" fill="#bae6fd" font-size="10.5" font-weight="700">LIVE DEMO ↗</text>
+
+    <!-- Title & Subtitle -->
+    <text x="28" y="82" fill="#ffffff" font-size="26" font-weight="800">Tradepedia</text>
+    <text x="28" y="106" fill="#7dd3fc" font-size="13.5" font-weight="600">Multi-Asset Forex Platform with M-PESA Live Deposits</text>
+
+    <!-- Description -->
+    <text x="28" y="136" fill="#cbd5e1" font-size="13">High-integrity trading platform engineered for the Kenyan market featuring</text>
+    <text x="28" y="155" fill="#cbd5e1" font-size="13">atomic balance tracking, KYC verification workflows, and risk controls.</text>
+
+    <!-- Key Architecture Highlights -->
+    <g transform="translate(28, 174)" font-size="12" fill="#94a3b8">
+      <text x="0" y="14">• <tspan fill="#e2e8f0" font-weight="600">Immutable Double-Entry Ledger</tspan> with fixed-precision Decimal accounting</text>
+      <text x="0" y="34">• <tspan fill="#e2e8f0" font-weight="600">Multi-Tier RBAC</tspan> (User / Admin / Compliance), KYC review &amp; Daraja STK Push</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="28" y1="226" x2="552" y2="226" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Tech Stack Footer -->
+    <g transform="translate(28, 240)" font-size="11.5" font-weight="600" fill="#7dd3fc" font-family="monospace">
+      <text x="0" y="14">Next.js 14  •  TypeScript  •  Prisma ORM  •  PostgreSQL  •  Zod  •  Vitest</text>
+    </g>
+  </g>
+</svg>

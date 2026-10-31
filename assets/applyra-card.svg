@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" width="100%" height="100%" role="img" aria-labelledby="applyra-title">
+  <title id="applyra-title">Applyra — AI-Tailored CVs &amp; Cover Letters for Kenyan Students</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071d17"/>
+      <stop offset="100%" stop-color="#04100d"/>
+    </linearGradient>
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="580" height="280" rx="16" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="578" height="278" rx="15" fill="none" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Top Header -->
+    <rect x="28" y="24" width="142" height="24" rx="12" fill="#451a03" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <circle cx="42" cy="36" r="4" fill="#fbbf24"/>
+    <text x="54" y="40" fill="#fde68a" font-size="10.5" font-weight="700" letter-spacing="1">FLAGSHIP SAAS</text>
+
+    <rect x="442" y="24" width="110" height="24" rx="12" fill="url(#pillBg)" stroke="#34d399" stroke-opacity="0.4"/>
+    <text x="497" y="40" text-anchor="middle" fill="#a7f3d0" font-size="10.5" font-weight="700">LIVE DEMO ↗</text>
+
+    <!-- Title & Subtitle -->
+    <text x="28" y="82" fill="#ffffff" font-size="26" font-weight="800">Applyra</text>
+    <text x="28" y="106" fill="#6ee7b7" font-size="13.5" font-weight="600">AI-Tailored CVs &amp; Cover Letters for Kenyan Students</text>
+
+    <!-- Description -->
+    <text x="28" y="136" fill="#cbd5e1" font-size="13">Matches university &amp; college students to internships, attachments, and</text>
+    <text x="28" y="155" fill="#cbd5e1" font-size="13">entry-level roles using strictly grounded profile data — zero hallucination.</text>
+
+    <!-- Key Architecture Highlights -->
+    <g transform="translate(28, 174)" font-size="12" fill="#94a3b8">
+      <text x="0" y="14">• <tspan fill="#e2e8f0" font-weight="600">Row-Level Security (RLS)</tspan> + server-only service role payment verification</text>
+      <text x="0" y="34">• <tspan fill="#e2e8f0" font-weight="600">Instant M-PESA STK Push</tspan> micro-payments + native PDF &amp; Word (.docx) export</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="28" y1="226" x2="552" y2="226" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Tech Stack Footer -->
+    <g transform="translate(28, 240)" font-size="11.5" font-weight="600" fill="#a7f3d0" font-family="monospace">
+      <text x="0" y="14">Next.js 15  •  React 19  •  TypeScript  •  Supabase  •  Claude AI  •  Daraja API</text>
+    </g>
+  </g>
+</svg>
